@@ -2,12 +2,14 @@ package unidad_3_3;
 
 public class Main {
     public static void main(String[] args) {
-        AmphibiousVehicle amphibiousVehicle = new AmphibiousVehicle("AmphiCar");
+        // Crear una instancia de AmphibiousVehicle
+        AmphibiousVehicle amphibiousVehicle = new AmphibiousVehicle("Vehiculo Amphibious");
 
+        // Usar los métodos de AmphibiousVehicle
         amphibiousVehicle.start();
         amphibiousVehicle.driveOnLand();
         amphibiousVehicle.sailOnWater();
-        amphibiousVehicle.accelerate();
+        amphibiousVehicle.accelerate(30);
         amphibiousVehicle.stop();
     }
 }
